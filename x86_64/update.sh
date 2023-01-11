@@ -1,9 +1,9 @@
 #!/bin/bash
 
-rm forex_repo*
+rm arcofly_repo*
 
 echo "repo-add"
-repo-add -n -R forex_repo.db.tar.gz *.pkg.tar.zst
+repo-add -n -R arcofly_repo.db.tar.gz *.pkg.tar.zst
 sleep 5
 
 
